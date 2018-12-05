@@ -16,7 +16,8 @@ export default class Header extends Component {
     });
   }
   sendParent(){
-      this.props.callback(this.state.age)
+      this.props.callback(this.state.age);
+    //   测试git
   }
   render() {
     return (
