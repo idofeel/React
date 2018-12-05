@@ -15,9 +15,11 @@ export default class Header extends Component {
       age: this.state.age + 3
     });
   }
+
   sendParent(){
-      this.props.callback(this.state.age)
+      this.props.callback(this.state.age);
   }
+  
   render() {
     return (
       <div>
